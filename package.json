@@ -1,0 +1,28 @@
+{
+  "name": "wine_shop_backend",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.4.0"
+  },
+  "description": "backend for a ecomrence wine shop website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nateweis/Wine_Shop_Backend.git"
+  },
+  "author": "Nate Weiss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nateweis/Wine_Shop_Backend/issues"
+  },
+  "homepage": "https://github.com/nateweis/Devorah-sWebsiteBackend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "paypal-rest-sdk": "^1.8.1"
+  }
+}
