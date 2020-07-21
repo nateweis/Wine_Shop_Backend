@@ -15,7 +15,7 @@ const purchaseMade = (req, res) => {
         "payment_method": "paypal"
     },
     "redirect_urls": {
-        "return_url": "http://localhost:3000/good",
+        "return_url": "http://localhost:3000/wine-store/good",
         "cancel_url": "http://localhost:3000/bad"
     },
     "transactions": [{
